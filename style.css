@@ -1,0 +1,48 @@
+*,
+*: before,
+*: after{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./SUSMITA.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+     color: red;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2 {
+    color:yellowgreen;
+}
+
+h3 {
+    color:yellowgreen;
+}
+
+.main-para {
+    color:aqua
+}
+#personal {
+    text-decoration:underline;
+    text-decoration-color: aquamarine;
+    text-decoration-style: wavy;
+}
+div > p{
+    font-size:80%;
+}
+div + p{
+    text-align:right;
+    color:red;
+}
+div ~ p{
+    text-align: center;
+}
+
+span{
+    color:yellow;
+}
